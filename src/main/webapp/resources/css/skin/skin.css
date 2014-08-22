@@ -1,0 +1,272 @@
+@CHARSET "UTF-8";
+
+/************************************************************************************
+Skin
+*************************************************************************************/
+
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+
+body {
+	color: #000 !important;
+/* 	background-color: #E9E9E9; */
+	font-size: 1.2em;
+	font-size: 0.75em;
+	-webkit-text-size-adjust: none;
+}
+
+a {
+	color: #669;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+	
+h1 {
+	font: bold 36px/100% Arial, Helvetica, sans-serif;
+}
+
+label{
+	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+/* 	color: #428BCA; */
+	font-size: 14px;
+	font-weight: normal;
+	
+}
+
+.row_selected{
+    color:#FFF;
+    background-color: #39B3D7;
+}
+
+.container{
+	height: 625px;
+	margin-top: 100px;
+}
+
+/*****************************************************************************
+* [SKN-8] - Formata��o das cores dos bot�es
+*****************************************************************************/
+
+.bt{
+	font-family: "Open Sans Bold", "robotobold", sans-serif;
+	font-size: 15px;
+	color: #fff;	
+	background-color: #7b9cc1;
+	cursor:pointer;
+	border: 0px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	position:relative;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 63px;
+	-webkit-border-radius: 5px;    
+    border-radius: 5px;
+	-webkit-box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: none;
+	line-height: 38px;
+	height: 48px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-right: 10px;
+}
+
+.bt:hover{
+	background-color: #6c8db3;
+}
+
+.bt:active{
+	background-color: #3E526B;
+}
+
+.bt:before {
+	width: 50px;
+	height:100%;
+	position:absolute;
+	background-color: #3e526b;
+	left: -1px;
+	top: 0px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+	z-index: 1;
+}
+
+.bt:after {
+	content: '';
+	width: 20px;
+    height: 20px;
+	left:35px;
+	position:absolute;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+	background-color: #fff;
+	top:50%;
+	margin-top: -10px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.bt:hover:after{
+	left:38px;
+}
+
+
+.btdisabled{
+	font-family: "Open Sans Bold", "robotobold", sans-serif;
+	font-size: 15px;
+	color: #bababa;
+	background-color: #dcdcdc;
+	cursor:default;
+	border: 0px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	position:relative;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 63px;
+	-webkit-border-radius: 5px;    
+    border-radius: 5px;
+	-webkit-box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: none;
+	line-height: 38px;
+	height: 48px;	
+	
+}
+
+.btdisabled:before {
+	width: 50px;
+	height:100%;
+	position:absolute;
+	background-color: #474747;
+	left: -1px;
+	top: 0px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+	z-index: 1;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	 filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); 
+	opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+}
+
+/*****************************************************************************
+* [DEF-12] - Formatação das notificações
+*****************************************************************************/
+
+.noty{background-color: #fff;border-color: #ccc;color: #444;border: 1px solid #eee;}
+.noty_message a{color: inherit;}
+.noty.warning{background-color: #FFEAA8;border-color: #FFC237;color: #826200;}
+.noty.error{background-color: #f83a3a;border-color: #CC0000;color: #fff;}
+.noty.information{background-color: #33B5E5;border-color: #0B90C4;color: #fff;}
+.noty.success{background-color: #99cc00;border-color: #669900;color: #fff;}
+
+.noty{
+    -webkit-box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 5px;
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family: "Open Sans Light", sans-serif; 
+}
+
+.noty_bar{
+	font-size: 14px;
+	line-height: 16px;
+	text-align:center;
+	padding: 8px 10px 9px;
+	width: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+}
+
+.noty_title{
+	font-family: "Open Sans Bold", sans-serif;
+	text-transform: uppercase; 
+	font-size: 12px;	
+}
+
+.noty.warning .noty_bar{
+	background-image:url(../images/icons/interface/close-noty-warning.png);
+}
+
+.noty.success .noty_bar,.noty.error .noty_bar, .noty.information .noty_bar{
+	background-image:url(../images/icons/interface/close-noty.png);
+}
+
+
+label.obrigatorio:after{content: ' *';color:#ff0000;}
+
+img {
+max-width: 100%;
+}
+
+/*****************************************************************************
+* loadings gif
+*****************************************************************************/
+#info-produtos{
+	z-index: 1;
+}
+.loading{
+background: url("../../images/gifs/loading-horizontal.gif") no-repeat scroll 50% 50% transparent;
+height: 80px;
+}
+
+.loading-ball-blue{
+background: url("../../images/gifs/loading-blue.gif") no-repeat scroll 50% 50% transparent;
+height: 80px;
+}
+
+.loading-blue-name{
+background: url("../../images/gifs/loading-blue-name.gif") no-repeat scroll 50% 50% transparent;
+height: 80px;
+}
+
+.loading-ball-min{
+background: url("../../images/gifs/loading-ball-min.gif") no-repeat scroll 50% 50% transparent;
+height: 80px;
+}
+
+.loading-cicle{
+	background: url("../../images/gifs/loading-cicle.gif") no-repeat scroll 50% 50% transparent;
+	height: 80px;
+}
+/*****************************************************************************
+* Tela produto
+*****************************************************************************/
+
+.imagem_foto{
+	margin: 2%;
+	background-color: #F4F8FA;
+	border-color: #BCE8F1;
+	padding: 20px;
+	border-left: 3px solid #BCE8F0;
+}
+
+
+#conteudo-produto{
+	background: white;
+}

@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+/************************************************************************************
+header
+*************************************************************************************/
+
+#header {
+	height: 61px;
+	background-color: #00BBD6;
+	color: #FFF !important;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+/* .header-center{ */
+/* 	width: 50%; */
+/* } */
+
+.header-center {
+	width: 960px;
+}
+
+#topo-logo{
+	background: transparent url("../images/logos/logo_opinerama.png") no-repeat left top;
+	width: 47px;
+	height: 55px;
+	float: left; 
+ 	background-size: contain !important; 
+ 	float: left;
+}
+
+#acesso{
+/* 	margin-left: 70%; */
+	float: right;
+/* 	margin-right: 10px; */
+/* 	width: 40%; */
+}
+
+.foto-usuario-logado {
+	width: 50px;
+	float: left;
+	padding-top: 5px;
+}
+
+.foto-usuario-logado img {
+	border-radius: 50%;
+	cursor: pointer;
+	width: 100%;
+	height: 50px;
+}
+#logado {
+	padding-left: 10px;
+}
+
+#acesso ul{
+	list-style: none;	
+	padding-top: 20px;
+}
+
+#acesso ul li{
+	padding: 2px 05px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#topo-logo{
+	cursor: pointer;
+}
+
+#logout:hover, #logado:hover, #cadastre:hover, #login:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.fancybox-wrap {
+  position: absolute;
+  top: 100px !important;
+}

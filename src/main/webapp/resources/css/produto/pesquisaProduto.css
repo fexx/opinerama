@@ -1,0 +1,434 @@
+/* Resultado encontrados de produtos */
+
+.img-pesq-produto{
+	width: 20%;
+	height: 100%;
+	float: left;
+/* 	border: 1px solid #ddd; */
+}
+
+.informacoes-pesquisa-produto{
+	width: 80%;
+	height: 100%;
+	float: right;
+	background: #f5f5f5;
+	color: #000;
+}
+
+.titulo-prod-pesquisado{
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	height: 25px;
+	padding-left: 10px;
+	font-family: Montserrat,sans-serif;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.descricao-prod-pesquisado{
+	width: 100%;
+	height: 70%;
+	padding-left: 10px;
+	overflow: hidden;
+	font-weight: 300;
+}
+
+.img-pesquisa {
+	width: 100%;
+	height: 100%;
+}
+
+.resultado-pesquisa-produto{
+	width: 99%;
+	height: 120px;
+	border: 1px solid #F0E8E8;
+/* 	border-bottom: 3px solid #ddd; */
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+}
+
+.resultado-pesquisa-produto:hover {
+	box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0 1px #aaa;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-o-box-shadow: 0 0 5px #aaa;
+	cursor: pointer;
+	height: 120px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#imgAvaliacao {
+	display: none;
+}
+
+.img-pesq-produto {
+	overflow: hidden;
+	float: left;
+	position: relative;
+	background: url(http://www.artesacramoda.com.br/wp-content/themes/artesacra/images/loading.gif) no-repeat center center;
+}
+.img-pesq-produto img {
+	width: 445px;
+}
+
+.buscando-loading{
+	width: 100%;
+	float: left;
+	margin: auto;
+/* 	margin-top: 20px; */
+/* 	margin-bottom: 30px; */
+}
+
+.total-produtos {
+	color: #00BBD6;
+	font-family: "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: 300;
+}
+
+.produtos-encontrados {
+	float: left;
+	width: 100%;
+}
+
+.ficha-tecnica{
+	color: #000 !important;
+}
+
+.btn-pesquisar{
+	float: left;
+}
+
+.title-blue{
+	color: #00BBD6;
+	font-family: source-sans-pro, sans-serif;
+	font-size: 1.0em;
+	font-weight: 300;	
+}
+
+.img-produto{
+/* 	width: 100%; */
+/* 	height: 200px; */
+	height: auto;
+	width: 100%;
+}
+
+.div-produto-imagens ul{
+	list-style: none;
+}
+
+.mais-img-produto{
+	float: left;
+	width: 33.33%;
+	border: 1px solid #000;
+}
+
+.img-classificacao {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.select{
+	border: 1px solid #00BBD6;
+}
+
+.div-avaliar-produto{
+/* 	height: 289px; */
+	/* border: 3px solid #cbd2d6; */
+/* 	border: 2px solid rgba(0,39,59,.2); */
+	/* border-radius: 5px; */
+	box-shadow: 0 0 5px #AAA;
+	-webkit-box-shadow: 0 0 5px #AAA;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-o-box-shadow: 0 0 5px #aaa;
+}
+
+.title-blue{
+	text-align: center;
+}
+
+.class-geral{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #cccccc;
+	padding: 15px;
+}
+
+#tabela{
+/* 	padding: 10px; */
+	width: 100%;
+}
+
+#tabela{
+/* 	border: 1px solid; */
+	border-spacing: 3px;
+}
+#tabela th{
+	padding: 10px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	background-color: #33B5E5;
+	font-weight: 300;
+}
+
+#tabela td{
+	padding-left: 10px;
+	border: 1px solid #cccccc;
+	font-weight: 300;
+}
+
+.form-control {
+	width: 95%;
+}	
+
+/************************************************************************************
+Estilos da ficha tecnica
+*************************************************************************************/
+
+
+.modelos_tabela_fichatecnica{
+	width: 100%;
+	margin: 0 0 15px 0;
+	display:inline-block;
+}
+
+.modelos_tabela_fichatecnica a{
+	color: #000;
+}
+
+.modelos_tabela_fichatecnica a:hover{
+	color: #eb8b1b;
+	text-decoration:underline;
+}
+
+.modelos_tabela_fichatecnica_topo{
+	background: #00BBD6;
+	color:#000;
+/* 	font-size: 14px; */
+/* 	font-weight:bold; */
+	padding: 5px 8px;
+	margin-bottom: 5px;
+	font-family: source-sans-pro, sans-serif;
+	font-size: 1.0em;
+	font-weight: 300;
+}
+
+.modelos_tabela_fichatecnica_conteudo{
+	background: #f7f7f7;
+	padding: 3px 8px;
+}
+
+.modelos_tabela_fichatecnica_conteudo_variacao{
+	background: #e3e3e3;
+	padding: 3px 8px;
+}
+
+.modelos_tabela_fichatecnica_conteudo_caracteristica
+{
+	width: 200px;
+	font-weight:bold;
+	float: left;
+}
+
+.modelos_tabela_fichatecnica_conteudo_vlr_caracteristica
+{
+	width: 300px;
+	float: left;
+}
+
+.modelos_tabela_fichatecnica_esquerda{
+	float: left;
+	padding: 3px 8px;
+	width: 400px;
+}
+
+.modelos_tabela_fichatecnica_direita{
+	width: 270px;
+	float: right;
+	padding: 3px 8px;
+}
+
+.modelos_tabela_fichatecnica_esquerda_itens{
+	float:left;
+	margin: 0 10px 0 0;
+}
+
+.modelos_tabela_fichatecnica_esquerda_itens a{
+	color: #fff;
+}
+
+.btnComparar {
+    line-height: 20px;
+    border: 1px solid #ddd;
+    color: #fff;
+    background: #ed7c06;
+    background: -moz-linear-gradient(top, #ed7c06 0%, #be1800 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed7c06), color-stop(100%,#be1800));
+    background: -webkit-linear-gradient(top, #ed7c06 0%,#be1800 100%);
+    background: -o-linear-gradient(top, #ed7c06 0%,#be1800 100%);
+    background: -ms-linear-gradient(top, #ed7c06 0%,#be1800 100%);
+    background: linear-gradient(to bottom, #ed7c06 0%,#be1800 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed7c06', endColorstr='#be1800',GradientType=0 );
+            
+    position: relative;
+    left: 625px;
+            
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.marcas_modelos_ficha_box_compare label {
+    position: relative;
+    top: -2px;
+}
+.modelos_tabela_fichatecnica_esquerda_itens a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.marcas_modelos_outros_itens{
+	width: 710px;
+	margin-bottom: 10px;
+	border: #cccccc solid 1px;
+	background-color:#FFFFFF;
+	min-height: 85px;
+}
+
+.marcas_modelos_outros_itens_base{
+	background: #ececec;
+	width: 700px;
+	padding: 10px 10px 5px 0;
+	color: #888888;
+	text-align:right;
+	font-size:11px;
+	font-weight:bold;
+	text-transform: uppercase;
+	display:inline-block;
+	position: relative;
+    top: 3px;
+}
+
+.marcas_modelos_outros_itens_carro{
+	width: 90px;
+	margin: 5px;
+	float:left;
+}
+
+.marcas_modelos_ficha_outros_bot{
+	height: 20px;
+	background: url(../../imagens/icone_detalhes_off.png) no-repeat left 4px;
+	color:#666666;
+	margin: -9px 0 0 10px;
+	text-transform:uppercase;
+	padding: 1px 0 0 18px;
+	display:inline-block;
+	float: left;
+}
+
+.marcas_modelos_ficha_outros_bot h1{
+	font-size:11px;
+}
+
+a:hover .marcas_modelos_ficha_outros_bot {
+	background: url(../../imagens/icone_detalhes_on.png) no-repeat left 4px;
+}
+
+.marcas_modelos_ficha_box_compare{
+	float:right;
+	margin:2px 5px 0 0;
+	padding: 0;
+}
+
+.marcas_modelos_ficha_box_compare input{
+	margin: -5px 5px 0 0;
+	padding: 0;
+}
+
+.marcas_modelos_ficha_box_compare_txt{
+	font-size:10px;
+	float:right;
+	margin-top: -2px;
+	margin-right: 12px;
+}
+
+.txt_destaque{
+	font-weight: bold;
+}
+
+/* Itens de S���rie */
+
+.item_disponivel{
+	
+	background: url(../../images/img/disponivel.png) no-repeat center;
+	width:40px;
+	height: 26px;
+	color:#FFF;
+	text-align:center;
+	font-size:9px;
+	text-transform:uppercase;
+	padding-top: 8px;
+	font-weight:bold;
+	 padding-top: 11px;
+}
+
+a:hover .item_disponivel{
+	color:#000;
+}
+
+.item_indisponivel{
+	
+	background: url(../../imagens/Item/indisponivel.png) no-repeat center;
+	width:40px;
+	height: 26px;
+	color:#8d8f8e;
+	text-align:center;
+	font-size:9px;
+	text-transform:uppercase;
+	padding-top: 8px;
+	font-weight:bold;
+	 padding-top: 11px;
+}
+
+.item_serie{
+	
+	background: url(../../images/img/serie.png) no-repeat center;
+	width:40px;
+	height: 26px;
+	color:#FFF;
+	text-align:center;
+	font-size:9px;
+	text-transform:uppercase;
+	padding-top: 8px;
+	font-weight:bold;
+	 padding-top: 11px;
+}
+
+a:hover .item_serie{
+	color:#000;
+}
+
+.item_indisponivel a{
+	color: #8D8F8E;
+}
+
+.item_indisponivel a:hover{
+	color: #000;	
+}
+
+
+.bot_comparar_versoes{
+	font-size: 12px;
+	padding-left: 4px;
+	margin-top: 5px;
+}
+#medias, #classificar {
+	width: 70% !important;
+	margin: 0px;
+}

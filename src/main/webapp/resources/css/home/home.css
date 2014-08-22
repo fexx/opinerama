@@ -1,0 +1,160 @@
+#content {
+	width: 960px;
+	margin-top: 61px;
+}
+
+/************************************************************************************
+STRUCTURE - corpo
+*************************************************************************************/
+
+#search
+{
+/* 	border: 1px solid #000; */
+	height: auto;
+	width: 100%;
+	margin: 0;
+	display: table;
+	border-bottom: 1px solid #DBD5D5;
+}
+
+.section-logo
+{
+	width: 350px;
+	height: 284px;
+	border-color: #000000;
+	position: relative;
+/* 	background: transparent url("../images/geral/cascata.png") no-repeat left top; */
+  	float: left; 
+}
+
+.section-search
+{
+	height: 284px;
+    float: left; 
+    margin-left: 07px;
+    width: 50%;
+}
+
+.imagem-slide{
+	background: transparent url("../images/geral/escolha-produto.png") no-repeat left top;
+	width: 214px;
+	height: 130px;
+	margin-left: 0;
+}
+
+#sec-produtos-destaque
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+#sec-menu-produtos
+{
+    height: 200px;
+    float: left;
+    margin: 0;
+ 	width: 210px;
+ 	height: 300px;
+/*  	border: 1px solid #000; */
+}
+
+.label-categoria{
+	border-bottom: 1px solid #DBD5D5;
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	color: #00BBD6;
+	font-weight: 400;
+	margin: 0;
+	padding: 5px;
+}
+
+.menu-categoria{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	color: #7F7F7F;
+/* 	border: 1px solid #000; */
+}
+.menu-categoria ul{
+	list-style-type:none;
+	padding: 5px;
+	color: #7F7F7F;
+	font-family: source-sans-pro, sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	
+}
+
+.menu-categoria ul li {
+	margin: 7px;
+	}
+	
+#sec-lista-produtos
+{
+ 	height: 100%;
+ 	margin: 0;
+/* 	width: 78.0%; */
+	width: 72%;
+	float: left;
+}
+
+.menu-produto{
+	border: 1px solid #DEDEDE;
+	float: left;
+	margin-left: 10px;
+/* 	background: #FFF url("../images/apple-iphone-5-u77-fr.jpg") no-repeat left top; */
+	width: 30%;
+}
+
+.img-produto{
+	width: 100%;
+}
+
+.sec-class{
+	border: 1px solid #DEDEDE;
+	width: 100%;
+	height: 55px;
+	float:left;
+	margin-top: 14px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+.rede-social{
+	float: left;
+	width: 15%;
+	height: 35px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
+.classificacao{
+	float: left;
+	width: 55%;
+	height: 35px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
+
+img {
+	border: 0;
+	width: 100%;
+	display: block;
+	max-width: 100%;
+}
+
+.admin-acesso{
+	color: #9d6a56;
+}
+
+.cad-categoria:hover, .cad-fornecedor:hover, .avaliar-produto:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#search > div.section-search > div.input-pesquisa > div > div > span > button {
+	margin-top: 0;
+}

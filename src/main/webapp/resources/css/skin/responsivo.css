@@ -1,0 +1,230 @@
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+
+@media all and (min-width:700px) and (max-width: 800px) {
+	
+	#acesso,  #sec-menu-produtos{
+		display: none;
+	}
+	#sec-lista-produtos {
+	width: 100%;
+	}
+	#header a, .header a{
+		display: block;
+		left: 5px;
+		margin-top: 10px;
+	}
+	
+	.section-search{
+		width: 53%;
+		height: 150px;
+		margin-left: 2%;
+	}
+	
+	.section-logo{
+		margin-top: 10px;
+		width: 40%;
+		height: 200px;
+	}
+	
+}	
+
+
+@media all and (min-width:800px) and (max-width: 980px) {
+	
+	#sec-lista-produtos {
+		width: 70%;
+	}
+	
+}	
+
+
+@media screen and (max-width: 980px) {
+	
+	#corpo {
+		width: auto;
+		float: none;
+	}
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+	#u167 {
+		z-index: 85;
+		width: 234px;
+		height: 184px;
+		border-color: #000;
+		position: relative;
+		margin-right: -10000px;
+		background: rgba(0, 0, 0, 0) url("../images/geral/cascata.png") no-repeat left top;
+		background-size: cover !important;
+	}
+	
+
+}
+
+@media screen and (max-width: 700px) {
+	
+
+	#corpo {
+		width: auto;
+		float: none;
+		height: 33em;
+	}
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+	
+	#acesso, #u167, #home-logo, #sec-menu-produtos{
+		display: none;
+	}
+	
+	#header a, .header a{
+		display: block;
+		left: 5px;
+		margin-top: 10px;
+	}
+	
+	#search{
+		border-bottom: 0px;
+	}
+	#sec-lista-produtos {
+		width: 97.3%;
+		margin-left: 1px;
+	}	
+}
+
+@media all and (min-width:500px) and (max-width:700px) {
+	
+	
+	#corpo {
+		width: auto;
+		float: none;
+		height: 33em;
+	}
+	
+	#topo-logo{
+		width: 200px;
+		height: 55px;
+		position: absolute;
+		left: 20%;
+	}
+	
+	#acesso, .section-logo, #sec-menu-produtos{
+		display: none;
+	}
+	
+	#header a, .header a{
+		display: block;
+		left: 5px;
+		margin-top: 10px;
+	}
+	
+	.section-search{
+		width: 80%;
+		height: 150px;
+		margin-left: 10%;
+	}
+	
+	#search{
+		border-bottom: 0px;
+	}
+	
+	#sec-lista-produtos {
+	width: 97.3%;
+	margin-left: 1px;
+	}	
+	
+	.img-produto {
+		width: 50%;
+	}
+	
+}
+
+@media screen and (min-width:300px) and (max-width: 500px) {
+	
+	#corpo {
+		width: auto;
+		float: none;
+		height: 33em;
+	}
+
+	#header {
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
+	
+	#topo-logo{
+		width: 200px;
+		height: 55px;
+		position: absolute;
+		left: 20%;
+	}
+	
+	#acesso, .section-logo, #sec-menu-produtos{
+		display: none;
+	}
+	
+	#contato, #sobre, #legislacao, #faq {
+		font-family: source-sans-pro, sans-serif;
+		font-size: 1.0em;
+		font-weight: 300;
+	}
+	
+	#menu-esquerdo{
+		border-right: 0px solid #fff;
+		padding-right: 0%;
+		margin-right: 0%;
+		width: 200%;
+	}
+	
+	#footer-menu {
+		font-size: 1.5625em;
+		width: 41.6770%;
+		margin: 2.2082% 0 0 1.625%;
+		font-family: source-sans-pro, sans-serif;
+	}
+	
+	#header a, .header a{
+		display: block;
+		left: 5px;
+		margin-top: 10px;
+	}
+	
+	.section-search{
+		width: 80%;
+		height: 150px;
+		margin-left: 10%;
+	}
+	
+	#search{
+		border-bottom: 0px;
+	}
+	
+	#sec-lista-produtos {
+	width: 97.3%;
+	margin-left: 1px;
+	}	
+}
+
+@media screen and (max-width:300px){
+	#sec-lista-produtos {
+	width: 97.3%;
+	margin-left: 1px;
+	}	
+}
